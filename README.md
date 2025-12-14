@@ -79,5 +79,5 @@ movie-sentiment-analysis-python/
 ➡️Git & GitHub version control
 
 👤 Author
-Utkarsh Dilip Pardhi
+**Utkarsh Dilip Pardhi**
 GitHub: https://github.com/UtkarshPardhi
