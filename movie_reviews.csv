@@ -1,0 +1,55 @@
+movie_name,review,sentiment,Cluster
+Interstellar,Exceptional with some standout scenes.,Positive,2
+Avatar,Amazing movie with great storytelling and beautiful vfx scenes.,Positive,1
+Dangal,An inspirational and emotionally charged movie.,Negative,0
+Pulp Fiction,Disappointing and lackluster.,Negative,2
+Kabir Singh,A controversial yet intense love story.,Negative,2
+3 Idiots,A heartwarming and inspirational story.,Negative,2
+Pulp Fiction,Disappointing and lackluster.,Negative,2
+Pulp Fiction,Disappointing and lackluster.,Negative,2
+Zindagi Na Milegi Dobara,A journey of self-discovery and friendship.,Negative,2
+The Social Network,Repetitive and unimaginative.,Negative,2
+Queen,A delightful and empowering story.,Negative,2
+Bajrangi Bhaijaan,A heartwarming and uplifting tale.,Negative,2
+The Dark Knight,"Not as good as expected, but okay.",Negative,0
+Inception,A mix of great and average moments.,Neutral,1
+Inception,A mix of great and average moments.,Neutral,1
+Dangal,An inspirational and emotionally charged movie.,Negative,0
+Zindagi Na Milegi Dobara,A journey of self-discovery and friendship.,Negative,2
+Dangal,An inspirational and emotionally charged movie.,Negative,0
+Chak De! India,An energetic and patriotic sports drama.,Negative,2
+PK,A satirical and thought-provoking movie.,Negative,0
+The Godfather,Good classic movie.,Positive,0
+Joker,"A unique concept, but execution fell short.",Negative,2
+Fight Club,A good timepass Movie.,Positive,0
+Lagaan,A compelling story with brilliant music.,Negative,2
+The Lion King,Unconvincing characters and plot.,Negative,2
+Shershaah,A powerful story of bravery and sacrifice.,Positive,2
+Avengers: Endgame,"Good visuals, but lacked depth in characters.",Negative,0
+The Dark Knight,"Not as good as expected, but okay.",Negative,0
+The Godfather,Good classic movie.,Positive,0
+The Dark Knight,"Not as good as expected, but okay.",Negative,0
+Avatar,Amazing movie with great storytelling and beautiful vfx scenes.,Positive,1
+Chak De! India,An energetic and patriotic sports drama.,Negative,2
+The Social Network,Repetitive and unimaginative.,Negative,2
+Dangal,An inspirational and emotionally charged movie.,Negative,0
+The Dark Knight,"Not as good as expected, but okay.",Negative,0
+Bajrangi Bhaijaan,A heartwarming and uplifting tale.,Negative,2
+Lagaan,A compelling story with brilliant music.,Negative,2
+Zindagi Na Milegi Dobara,A journey of self-discovery and friendship.,Negative,2
+Avengers: Endgame,"Good visuals, but lacked depth in characters.",Negative,0
+The Dark Knight,"Not as good as expected, but okay.",Negative,0
+Fight Club,A good timepass Movie.,Positive,0
+Black Panther,Dull and uninspiring.,Negative,2
+Zindagi Na Milegi Dobara,A journey of self-discovery and friendship.,Negative,2
+The Dark Knight,"Not as good as expected, but okay.",Negative,0
+Queen,A delightful and empowering story.,Negative,2
+Drishyam,A gripping and suspenseful drama.,Negative,2
+The Godfather,Good classic movie.,Positive,0
+Bajrangi Bhaijaan,A heartwarming and uplifting tale.,Negative,2
+Barfi,A heartwarming tale of love and acceptance.,Negative,2
+Inception,A mix of great and average moments.,Neutral,1
+Barfi,A heartwarming tale of love and acceptance.,Negative,2
+Sultan,Amazing movie with great storywriting.,Positive,1
+Uri,Great Movie,Positive,1
+Race 3,A very Badly made movie with poor direction and storytelling.,Negative,0

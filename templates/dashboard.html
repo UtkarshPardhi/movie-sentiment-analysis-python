@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome, {{ session['username'] }}</h1>
+        <a href="/logout" class="logout-button">Logout</a>
+    </div>
+
+    <h2>Movie Reviews</h2>
+    <table border="1">
+        <tr>
+            <th>Movie</th>
+            <th>Review</th>
+            <th>Sentiment</th>
+            <th>Cluster</th>
+        </tr>
+        {% for review in reviews %}
+        <tr>
+            <td>{{ review['movie_name'] }}</td>
+            <td>{{ review['review'] }}</td>
+            <td>{{ review['sentiment'] }}</td>
+            <td>{{ review['Cluster'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <div class="form-container">
+        <form method="POST" action="/add_review" class="review-form">
+            <h3>Add a New Review</h3>
+            <label for="movie_name">Movie Name:</label>
+            <input type="text" name="movie_name" required><br>
+            <label for="new_review">Review:</label>
+            <input type="text" name="new_review" required><br>
+            <label for="new_sentiment">Sentiment:</label>
+            <select name="new_sentiment">
+                <option value="Positive">Positive</option>
+                <option value="Neutral">Neutral</option>
+                <option value="Negative">Negative</option>
+            </select><br>
+            <button type="submit">Add Review</button>
+        </form>
+
+        <form method="POST" action="/update_review" class="review-form">
+            <h3>Update a Review</h3>
+            <label for="movie_name">Movie Name:</label>
+            <input type="text" name="movie_name" required><br>
+            <label for="new_review">New Review:</label>
+            <input type="text" name="new_review" required><br>
+            <label for="new_sentiment">New Sentiment:</label>
+            <select name="new_sentiment">
+                <option value="Positive">Positive</option>
+                <option value="Neutral">Neutral</option>
+                <option value="Negative">Negative</option>
+            </select><br>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+
+    <div>
+        <h3>Sentiment Analysis</h3>
+        <div id="pie-chart">{{ pie_chart_html|safe }}</div> <!-- Pie chart -->
+        <div id="bar-chart">{{ bar_chart_html|safe }}</div> <!-- Bar graph -->
+        <div id="cluster-chart">{{ cluster_bar_html|safe }}</div>
+    </div>
+
+    <p>The accuracy of the sentiment analysis model is: <strong>{{ svm_accuracy * 100 | round(2) }}%</strong></p>
+</body>
+</html>
